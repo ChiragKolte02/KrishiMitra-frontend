@@ -13,7 +13,7 @@ export default defineConfig({
         target: 'https://krishimitra-backend.onrender.com',
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/api/, '')
+        rewrite: (path) => path.replace(/^\/*/, '')
       }
     }
   }
