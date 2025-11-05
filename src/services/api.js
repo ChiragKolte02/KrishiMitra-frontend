@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const API = axios.create({
-  baseURL: 'http://localhost:5000/', // Your backend URL
+  baseURL: "https://krishimitra-backend.onrender.com", // Your backend URL
   headers: {
     'Content-Type': 'application/json',
   },
